@@ -6,19 +6,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>System32-Windows Homepage</title>
-    <script src="getoctokit.js"></script>
+    <script src="timeapi.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body onload="getconstantin()">
     <h1>Welcome to my website!</h1>
     <div class="br"></div>
     <div id="timeapi">
         <h2>Get the time here!</h2>
         <label for="seltime">Select your timezone: </label>
         <select name="seltime" id="seltime" title="Select your timezone">
-            
+            <!-- here goes nothing -->
         </select>
+        <h3 id="btn" onclick="selected()">Click this text to load time</h3>
+        <h2 id="time"></h2>
         <div class="br"></div>
     </div>
 </body>
